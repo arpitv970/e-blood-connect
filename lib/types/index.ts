@@ -7,3 +7,16 @@ interface InavItem {
   title: string,
   route: string,
 }
+
+export interface IhCItem {
+  title: string,
+  subTitle: string,
+  quote?: string,
+  cta?: IcTA,
+  index?: number
+}
+
+interface IcTA {
+  title: string,
+  url: string
+}

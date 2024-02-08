@@ -1,8 +1,15 @@
 import React from 'react'
+import HeroCarousel from './HeroCarousel'
 
 const HeroSec = () => {
   return (
-    <div>HeroSec</div>
+    <section className='hero'>
+      <div className='container'>
+        <div>
+          <HeroCarousel />
+        </div>
+      </div>
+    </section>
   )
 }
 
