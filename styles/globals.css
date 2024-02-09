@@ -298,6 +298,119 @@ header {
 	transform: revert;
 }
 
+/* Features */
+.feature_innovation {
+	background:var(--bs-gradient);
+	padding: 4rem 0 10% 0;
+}
+
+.featured_title h3 {
+	font-size: calc(32px + (52 - 32) * ((100vw - 320px) / (1920 - 320)));
+	color: var(--bs-white);
+	font-weight: 700;
+	line-height: 72px;
+}
+
+.featured_subtitle p {
+	color: var(--bs-white);
+	font-size: 22px;
+	line-height: 42px;
+}
+
+.featured_one {
+	background: rgb(219 219 219 / 10%);
+	padding: 40px;
+	border-radius: 8px;
+	min-height: 100%;
+}
+
+.featured_one svg {
+	margin-bottom: 1rem;
+}
+
+.featured_one h4 {
+	font-size: 22px;
+	color: white;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.featured_one p {
+	color: #C8C8C8;
+	font-size: 18px;
+}
+
+/* a.light_shade_link { */
+/* 	display: flex; */
+/* 	align-items: center; */
+/* 	position: relative; */
+/* 	max-width: 133px; */
+/* 	font-size: 18px; */
+/* 	color: #fff; */
+/* 	background-image: url(../images/arrow-right.png); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: right; */
+/* 	font-weight: 500; */
+/* } */
+
+.featured_one:hover {
+	background-color: #F5F5F5;
+	transition: .8s;
+	/* background-image: url(../images/background_vector.png); */
+	background-position: 100% -112px;
+	background-size: cover;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.featured_one:hover svg {
+	margin-bottom: 1rem;
+}
+
+.featured_one img {
+	margin-bottom: 1rem;
+}
+
+.featured_one:hover h4 {
+	color: black;
+}
+
+.featured_one:hover p {
+	color: #878787;
+}
+
+/* .featured_one:hover a.light_shade_link { */
+/* 	display: flex; */
+/* 	align-items: center; */
+/* 	position: relative; */
+/* 	max-width: 125px; */
+/* 	font-size: 18px; */
+/* 	color: var(--bs-primary); */
+/* 	background-image: url(../images/arrow-right-hover.png); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: 100% 3px; */
+/* } */
+
+.icon-hover {
+	display: none;
+}
+
+.featured_one:hover .icon {
+	display: none;
+}
+
+.featured_one:hover .icon-hover {
+	display: block;
+}
+
+.view-all-featured {
+	display: inline-flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
 /*==========Footer=============*/
 footer {
 	background: var(--bs-gradient);

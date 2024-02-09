@@ -20,3 +20,12 @@ interface IcTA {
   title: string,
   url: string
 }
+
+
+export interface IFeatureCard {
+  Icon: string,
+  IconHover: string,
+  title: string,
+  desc: string,
+  url: string
+}
