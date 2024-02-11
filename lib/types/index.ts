@@ -29,3 +29,20 @@ export interface IFeatureCard {
   desc: string,
   url: string
 }
+
+export interface IState {
+  id: number,
+  country_id: number,
+  name: string
+}
+
+export interface ICity {
+  id: number,
+  name: string,
+  state_id: number
+}
+
+export interface IAddress {
+  states: IState[],
+  cities: ICity[]
+}

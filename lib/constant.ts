@@ -122,3 +122,31 @@ export const FEATURES: IFeatureCard[] = [
     IconHover: '/assets/logos/default-icon-hover.svg'
   },
 ]
+
+export const BLOOD_TYPE = {
+  AB_NEGATIVE: 'AB-Ve',
+  AB_POSITIVE: 'AB+Ve',
+
+  A_POSITIVE: 'A+Ve',
+  A_NEGATIVE: 'A-Ve',
+
+  B_POSITIVE: 'B+Ve',
+  B_NEGATIVE: 'B-Ve',
+
+  O_NEGATIVE: 'O-Ve',
+  O_POSITIVE: 'O+Ve',
+}
+
+export const BLOOD_COMPONENT = {
+  WBCPD: 'Whole Blood (CPD)',
+  WBCPD1: 'Whole Blood (CPDA-1)',
+  PRBC: 'Packed Red Blood Cells',
+  FFP: 'Fresh Frozen Plasma',
+  SDP: 'Single Donor Platelet',
+  CRYP: 'Cryoprecipitate',
+  PLASMA: 'Plasma',
+  PC: 'Platelet Concentrate',
+  CPP: 'Cryo Poor Plasma',
+  RDP: 'Random Donor Platelets',
+  PAS: 'Platelets additive solutions',
+}
